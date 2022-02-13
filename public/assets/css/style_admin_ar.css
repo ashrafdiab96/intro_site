@@ -1,0 +1,18 @@
+/**
+* Admin style file
+* Arabic languages
+* =============================
+* Author: Ashraf Diab
+**/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.login-container {
+    background: #c99c3b;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,176 @@
+/**
+* Style file
+* Shared between all languages
+* =============================
+* Author: Ashraf Diab
+**/
+
+/* Start navbar style */
+.main-navbar {
+    z-index: 9999;
+    background: rgba(212, 173, 89, 0.7) !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main-navbar .main-nav-link:hover {
+    color: #000 !important;
+}
+/* End navbar style */
+
+/* Start active link style */
+.lang-link-active {
+    background-color: #c99c3b !important;
+    color: #fff !important;
+}
+
+.nav-link-active {
+    color: #000 !important;
+}
+/* End active link style */
+
+/* Start logo style */
+.site-logo {
+    pointer-events: none;
+}
+/* End logo style */
+
+/* Start language dropdown style */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.language-dropdown a {
+    cursor: pointer;
+}
+
+.language-toggle-dropdown::after {
+    display: none;
+}
+
+.language-toggle-dropdown * {
+    color: #fff;
+}
+/* End language dropdown style */
+
+/* Start slider style */
+.home-slider {
+    margin-top: -88px;
+}
+
+.uk-slideshow-items {
+    min-height: 700px !important;
+}
+
+.uk-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    max-width: none;
+    background-color: rgb(201, 156, 59, 0.3) !important;
+}
+
+.uk-slideshow-items {
+    min-height: 700px !important;
+    height: 700px !important;
+}
+
+.list-item {
+    min-height: 700px !important;
+    height: 700px !important;
+}
+
+.uk-cover {
+    height: 700px;
+    width: 1920px;
+}
+
+.uk-overlay {
+    margin-top: 60px;
+}
+
+.slider-btn {
+    transition: all 0.3s;
+    background: #313131 !important;
+    color: #fff !important;
+}
+
+.slider-btn:hover {
+    background: #c99c3b !important;
+}
+
+.nav-line {
+    background: #edc36b;
+    height: 35px;
+    width: 1px;
+    margin: 0 20px;
+}
+
+@media (max-width: 992px) {
+    .uk-cover {
+        max-width: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        height: 480px;
+        width: 1316px;
+    }
+
+    .uk-slideshow-items {
+        min-height: 480px !important;
+        height: 480px !important;
+    }
+
+    .list-item {
+        min-height: 480px !important;
+        height: 480px !important;
+    }
+}
+
+/* End slider style */
+
+/* Start statistics style */
+.statistics {
+    background: #c99c3b;
+    padding: 30px;
+}
+
+.statistics .stat-content .stat-text * {
+    color: #f1f1f1b3;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.statistics .stat-container {
+    max-width: 1340px;
+}
+
+.statistics .stat-content .stat-text .stat-text-h {
+    margin: 0;
+}
+
+.statistics .stat-container .row {
+    position: relative;
+}
+
+@media (max-width: 992px) {
+    .statistics .stat-content {
+        padding: 20px;
+    }
+}
+
+/* Start statistics style */
+

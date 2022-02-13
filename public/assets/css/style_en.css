@@ -1,0 +1,141 @@
+/**
+* Style file
+* English languages
+* =============================
+* Author: Ashraf Diab
+**/
+
+/* Start navbar style */
+.language-dropdown {
+    padding: 0;
+    margin-left: 15px;
+    top: 90%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 0;
+}
+
+.language-toggle-dropdown {
+    background-color: #c99c3b;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 0;
+    cursor: pointer;
+}
+/* End navbar style */
+
+/* Start header style */
+.language-dropdown a:last-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 0;
+}
+
+.language-dropdown a:first-child:hover {
+    border-top-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 0;
+    background-color: #666;
+    color: #fff;
+}
+
+.main-navbar {
+    flex-direction: row-reverse;
+}
+
+.all-lists {
+    flex-direction: row-reverse;
+}
+
+.main-list {
+    flex-direction: row-reverse;
+}
+
+.language-list {
+    margin-right: 0 !important;
+}
+
+@media (max-width: 575px) {
+    .main-list {
+        flex-direction: column !important;
+    }
+}
+/* End header style */
+
+/* Start statistics style */
+.statistics .stat-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics .stat-content .stat-text {
+    margin-left: 20px;
+}
+
+@media (min-width: 767px) {
+    .stat-col::after {
+        content: '';
+        border-bottom: solid 52px #e9c77d;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 40px;
+        width: 1px;
+    }
+
+    .stat-col:first-child::after {
+        content: '';
+        border-bottom: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+    .stat-col::after {
+        content: '';
+        border-bottom: solid 60px #e9c77d;
+        position: absolute;
+        left: 0;
+        top: 15px;
+        height: 40px;
+        width: 1px;
+    }
+
+    .stat-col:first-child::after {
+        content: '';
+        border-bottom: none;
+    }
+
+    .stat-col.stat-third-col::after {
+        content: '';
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .stat-col::after {
+        content: '';
+        border-bottom: solid 1px #e9c77d;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        height: 40px;
+        width: 100%;
+    }
+
+    .stat-col:last-child::after {
+        content: '';
+        border-bottom: none;
+    }
+
+    .statistics .stat-content {
+        margin-bottom: 20px;
+    }
+}
+
+/* Start statistics style */

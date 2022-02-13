@@ -1,0 +1,48 @@
+/**
+* Style errors file
+* English languages
+* =============================
+* Author: Ashraf Diab
+**/
+
+/* Start 404 page style */
+body, html, main, .container-404, .row-404 {
+    height: 100% !important;
+}
+
+.row-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-404 .row-404 .section-404,
+.container-404 .row-404 .oops-section {
+    padding: 40px;
+}
+
+.container-404 .row-404 .section-404 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container-404 .row-404 .section-404 * {
+    font-size: 150px;
+}
+
+.container-404 .row-404 .oops-section .heading-bullet {
+    font-size: 80px;
+}
+
+.container-404 .row-404 .oops-section .heading-bullet::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: calc(-.1 * 1em);
+    vertical-align: middle;
+    height: calc(4px + 0.7em);
+    margin-right: calc(5px + 0.2em);
+    border-left: calc(5px + 0.1em) solid #e5e5e5;
+}
+/* End 404 page style */
